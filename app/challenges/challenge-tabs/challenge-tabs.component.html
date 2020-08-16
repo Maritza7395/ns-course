@@ -1,0 +1,8 @@
+<TabView androidTabsPosition="bottom">
+    <StackLayout *tabItem="{title: 'Hoy'}">
+        <page-router-outlet name="today"></page-router-outlet>
+    </StackLayout>
+    <StackLayout *tabItem="{title: 'Desafío Actual'}">
+        <page-router-outlet name="currentChallenge"></page-router-outlet>
+    </StackLayout>
+</TabView>
